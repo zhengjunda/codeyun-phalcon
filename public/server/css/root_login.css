@@ -1,0 +1,45 @@
+@charset "utf-8";
+li{display:block;}
+body{background:#006699; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; color: #949494; }
+#div_login{position:absolute;z-index:10;top:100px;background-color:#eee;border-bottom:1px solid #ccc;border-top:1px solid;width:100%;height:360px;text-align:center;}
+#div_form{background:#ffffff url(../imgs/member/login_bg.jpg) no-repeat 0px 0px;min-width:800px;overflow:hidden;display:inline-block;border-right:1px solid #ccc;border-left:1px solid #ccc;}
+#login_image{float:left;width:200px;}
+#login_show{float:right;width:270px;height:350px;margin-right:8px;margin-top:15px;}
+#login_show .bg_filter{position:absolute;z-index:10;background-color:#000;width:270px;height:330px;filter:alpha(opacity=15);-moz-opacity:0.15;opacity:0.15;display:block;border-radius:8px;}
+#login_show .bg_login{position:absolute;z-index:11;width:270px;height:320px;text-align:center;}
+
+.bg_login .login_title{display:inline-block;height:36px;margin-top:20px;background-color:#eee;width:220px;font-weight:bold;border-radius:5px;line-height:36px;text-align:center;text-indent:5px;}
+.bg_login .login_title .title_20{font-size:20px;color:#444;}
+.bg_login .login_title .title_13{font-size:14px;color:#999;}
+.bg_login #login_username{display:inline-block;width:220px;height:32px;margin-top:20px;border-radius:4px;background-color:#fff;}
+.bg_login #login_username input{border:0px;height:30px;width:220px;background-color:#fff;background:url(../imgs/member/img_input.gif) no-repeat 3px 8px;text-indent:20px;}
+
+.bg_login #login_password{display:inline-block;width:220px;height:32px;margin-top:15px;border-radius:4px;background-color:#fff;}
+.bg_login #login_password input{border:0px;height:30px;width:220px;background-color:#fff;background:url(../imgs/member/img_input.gif) no-repeat 3px -50px;text-indent:20px;}
+
+.bg_login #login_checkcode{display:inline-block;width:220px;height:32px;margin-top:15px;border-radius:4px;background-color:#fff;}
+.bg_login #login_checkcode input{-ms-border:0px;-webkit-border:0px;border:0px;height:30px;width:120px;background-color:#fff;background:url(../imgs/member/img_input.gif) no-repeat 3px -50px;text-indent:20px;}
+
+.bg_login .login_off{border:1px solid #777;} 
+.bg_login .login_off input{color:#666;}
+.bg_login .login_on{
+	border:1px solid #a00;
+	-webkit-box-shadow:0px 0px 5px rgba(222, 0, 0, .2);  /*¹È¸è*/
+    -moz-box-shadow:0px 0px 5px rgba(222, 0, 0, .2); ;   /*»ðºü*/
+    -ms-box-shadow:0px 0px 5px rgba(222, 0, 0, .2);    /*ie*/
+    -o-box-shadow:0px 0px 5px rgba(222, 0, 0, .2);    /*opera*/
+	box-shadow:0px 0px 5px rgba(222, 0, 0, .2); 
+} 
+.bg_login .login_on input{color:#c00}
+
+
+.bg_login .login_attach{display:inline-block;width:220px;height:20px;margin-top:15px;}
+.bg_login .login_attach span{display:inline-block;}
+.bg_login .login_attach .user_remember{float:left;}
+.bg_login .login_attach .user_forget{float:right;}
+.bg_login .login_submit{margin-top:5px;height:45px;text-align:center;}
+
+.login_submit .button{display:block;margin-top:6px;border:0px;width:190px;padding-top:8px;padding-bottom:8px;cursor:pointer;display:inline-block;text-align:center;line-height:1; *padding:4px 10px; *height:2em;letter-spacing:2px;font-family:Tahoma, Arial/9!important; overflow:visible; *width:1;border-radius: 5px;box-shadow:0 0px 0 rgba(255, 255, 255, .7), 0 -1px 0 rgba(0, 0, 0, .09);}
+.login_submit .submit{color:#FFF;border:solid 1px #39d;background:#28c;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bbee',endColorstr='#2288cc');background:linear-gradient(top, #3be, #28c);background: -moz-linear-gradient(top, #3be, #28c);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3be), to(#28c));text-shadow:-1px -1px 1px #1c6a9e; }
+.login_submit .submit:focus {outline:none 0; border-color:#426DC9; box-shadow:0 0 8px rgba(66, 109, 201, .9);}
+.login_submit .submit:hover{color:#FFF; border-color:#1c6a9e;}

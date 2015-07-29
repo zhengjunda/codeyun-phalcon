@@ -1,0 +1,18 @@
+@charset "utf-8";
+.icon_001{background:url(../imgs/icon/001.png) no-repeat;}
+.icon_002{background:url(../imgs/icon/002.png) no-repeat;}
+.icon_003{background:url(../imgs/icon/003.png) no-repeat;}
+.icon_004{background:url(../imgs/icon/004.png) no-repeat;}
+.icon_005{background:url(../imgs/icon/005.png) no-repeat;}
+.icon_006{background:url(../imgs/icon/006.png) no-repeat;}
+.icon_007{background:url(../imgs/icon/007.png) no-repeat;}
+.icon_008{background:url(../imgs/icon/008.png) no-repeat;}
+.icon_009{background:url(../imgs/icon/009.png) no-repeat;}
+.icon_010{background:url(../imgs/icon/010.png) no-repeat;}
+
+.css_icon{float:left;color:#666;cursor:pointer;overflow:hidden;margin-top:5px;}
+.css_icon:hover{color:#f60;border-bottom:1px solid #f00;}
+
+.css_icon_bg{float:left;background:url();cursor:pointer;display:block;;margin-left:2px;margin-top:2px;height:20px;width:22px;}
+.css_icon_bg:hover{background:url(../imgs/icon/icon_on.png) no-repeat;}
+.css_icon_bg span{width:16px;height:16px;display:block;margin-top:1px;margin-left:2px;}

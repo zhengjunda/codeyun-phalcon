@@ -1,0 +1,15 @@
+@charset "utf-8";
+.menu_01{background:url(../imgs/menu/menu_01.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_02{background:url(../imgs/menu/menu_02.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_03{background:url(../imgs/menu/menu_03.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_04{background:url(../imgs/menu/menu_04.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_05{background:url(../imgs/menu/menu_05.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_06{background:url(../imgs/menu/menu_06.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_07{background:url(../imgs/menu/menu_07.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_08{background:url(../imgs/menu/menu_08.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_09{background:url(../imgs/menu/menu_09.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_10{background:url(../imgs/menu/menu_10.png) no-repeat;width:40px;height:38px;display:block;}
+.menu_11{background:url(../imgs/menu/menu_11.png) no-repeat;width:40px;height:38px;display:block;}
+
+.css_menu_bg{background:url();cursor:pointer;width:40px;height:38px;}
+.css_menu_bg:hover{background:url(../imgs/menu/over_on.png) no-repeat;}

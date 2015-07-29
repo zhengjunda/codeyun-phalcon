@@ -1,0 +1,12 @@
+@charset "utf-8";
+#msg{background:url(../imgs/message/msg.png) no-repeat;position:absolute;z-index:1;top:0px;left:0px;border:1px solid #eee;background-color:#f7f7f7;min-width:360px;}
+#msg_menu{text-indent:30px;width:100%;text-align:left;height:24px;line-height:24px;color:#fff;clear:both;}
+#msg_cont{width:95%;text-align:center;color:#333;clear:both;margin-top:10px;font-size:15px;}
+#msg_href{width:95%;text-align:left;height:30px;color:#333;clear:both;margin-top:10px;border-top:1px solid #eee;margin-left:5px;}
+
+.css_09f{color:#09f;}
+#msg_href #href_back{float:left;margin-left:10px;margin-top:10px;}
+#msg_href #href_time{float:right;margin-right:10px;margin-top:10px;}
+
+#auto_run{color:#00f;display:inline-block;cursor:pointer;}
+#auto_run:hover{color:#f60;border-bottom:1px solid #f00;}

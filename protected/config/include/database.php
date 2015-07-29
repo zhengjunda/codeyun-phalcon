@@ -1,0 +1,42 @@
+<?php
+return array(
+	'db_pgsql'=>array(
+		'adapter'  => 'pgsql',
+		'host'     => '127.0.0.1',
+		'username' => 'codeyun',
+		'password' => 'codeyun',
+		'dbname'   => 'zvecn',
+		'prefix'   => 've_',
+		'charset' => 'utf8',
+	),
+	'db_www'=>array(//ÕýÊ½
+		'adapter'  => 'mysql',
+		'host'     => '192.168.60.69',
+		'username' => 'zvecn_hz',
+		'password' => 'av1623ksdfaR34',
+		'dbname'   => 'zvecn',
+		'prefix'   => 've_',
+		'port'     => '3306',
+		'charset' => 'utf8',
+	),
+	'db_rc'=>array(//Ô¤·¢
+		'adapter'  => 'mysql',
+		'host'     => '183.60.108.70',
+		'username' => 'zvecn_hz',
+		'password' => 'fdgtj4uc8e20af',
+		'dbname'   => 'zvecn',
+		'prefix'   => 've_',
+		'port'     => '3306',
+		'charset' => 'utf8',
+	),
+	'db_test'=>array(//²âÊÔ
+		'adapter'  => 'mysql',
+		'host'     => '192.168.62.254',
+		'username' => 'zvecn_hz',
+		'password' => 'lksd8s!ej',
+		'dbname'   => 'zvecn',
+		'prefix'   => 've_',
+		'port'     => '3306',
+		'charset' => 'utf8',
+	),
+);

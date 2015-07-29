@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+html{margin:0px;padding:0px;overflow:hidden;}
+div,ul,li,body{overflow:hidden;margin:0px;padding:0px;border:0px;}
+body{width:100%;height:100%;font-size:12px;}
+/*font color begin*/
+	.css_f00{color:#F00;}
+	.css_f60{color:#F60;}
+	.css_00f{color:#09f;}
+	.css_09f{color:#00f;}
+	.css_fff{color:#FFF;}
+	.css_008{color:#008000;}
+	.css_222{color:#222;}
+	.css_333{color:#333;}
+	.css_666{color:#666;}
+	.css_999{color:#999;}
+	.css_ccc{color:#ccc;}
+	.css_eee{color:#eee;}
+	.font_bold{font-weight:bold;}
+/*font color end*/
